@@ -170,7 +170,7 @@ Base.prototype._getContainDatesInSchedule = function(schedule) {
  * @emits Base#beforeCreateSchedule
  * @emits Base#createdSchedule
  * @param {object} options Data object to create schedule.
- * @param {boolean} silent - set true then don't fire events.
+ * @param {boolean} silent - set the true then don't fire events.
  * @returns {Schedule} The instance of Schedule that created.
  */
 Base.prototype.createSchedule = function(options, silent) {
